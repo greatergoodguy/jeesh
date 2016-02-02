@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/match"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="greatergoodguy.jeesh.ActivityJeesh"
+        tools:showIn="@layout/activity_jeesh">
+
+        <LinearLayout
+            style="@style/match"
+            android:padding="16dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/activity_jeesh_button_status"
+                style="@style/button"
+                android:text="Status"/>
+
+            <TextView
+                style="@style/wrap"
+                android:id="@+id/activity_jeesh_tv_information"
+                android:text="Dragon Army rules!!!" />
+
+        </LinearLayout>
+
+    </ScrollView>
